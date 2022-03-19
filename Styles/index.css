@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10%;
+    background-color: beige;
+}
+
+header img {
+    width: 8rem;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0rem 3rem;
+}
+
+nav li a:hover {
+    color: rgb(231, 218, 100);
+}
+
+header button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(188, 219, 204, 0.7);
+    border: none;
+    border-radius: 5rem;
+    transition: ease-in 0.3s;
+} 
+
+header button:hover {
+    background-color: rgb(149, 204, 206);
+    color:rgb(0, 194, 168); 
+} 
