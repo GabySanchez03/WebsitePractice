@@ -1,0 +1,20 @@
+/* about page styling */
+
+.myAboutPage table th h1 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 400px;
+}
+
+/* .myAboutPage table th h1 a:hover {
+    background-color: rgb(190, 149, 206);
+    color:rgb(162, 0, 194); 
+} */
+
+table th h1 a:hover {
+    color: rgb(100, 231, 170);
+}
+
+.w3-dropdown-hover a {
+    font-family: Geneva, Verdana, sans-serif;
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Slab:wght@300&display=swap');
+@import url("https://www.w3schools.com/w3css/4/w3.css");
 
 * {
     box-sizing: border-box; 
@@ -6,26 +8,37 @@
     padding: 0;
 }
 
+/* Header Styling */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem 10%;
-    background-color: beige;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 header img {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
     width: 8rem;
 }
 
 nav li{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2;
+    text-decoration-line: none;
     list-style: none;
     display: inline-block;
-    padding: 0rem 3rem;
+    padding: 0rem 9rem;
 }
 
 nav li a:hover {
-    color: rgb(231, 218, 100);
+    color: rgb(100, 231, 170);
 }
 
 header button {
@@ -37,6 +50,97 @@ header button {
 } 
 
 header button:hover {
-    background-color: rgb(149, 204, 206);
-    color:rgb(0, 194, 168); 
+    background-color: rgb(190, 149, 206);
+    color:rgb(162, 0, 194); 
 } 
+
+/* Footer styling */
+
+footer {
+    background-color: gray;
+    padding: 2rem;
+    bottom: 0;
+    position: bottom;
+    width: 100%;
+    height: 105px;
+    z-index: 1;
+}
+
+footer p {
+    font-family: 'PT Sans', sans-serif;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer p a {
+    color:bisque;
+}
+
+/* body styling */
+
+.pageBody{
+    margin: 200px 0px 105px 0px;
+    background: url("https://media.discordapp.net/attachments/782360980910768170/957114553311850506/unknown.png?width=720&height=301") no-repeat center fixed;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.pageBody header a {
+    text-decoration:none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.indexBody {
+    margin-left: 20rem;
+}
+
+.indexBody .circles {
+    animation: slidein 5s;
+    animation-iteration-count:infinite;
+}
+
+/* Creates the animationfor the "slidein" animation (defined above) */
+@keyframes slidein {
+    /* Innition state of the animation */
+    from {
+        margin-left: 30%;
+        /* margin-top: 10%; */
+        /* width: 5%; */
+    } 
+
+    /* Final state of the animation*/
+    to{
+        margin-left: 15%;
+        /* margin-top: 5%; */
+        /* width: 5%; */
+    }
+} 
+
+/* @keyframes wave {
+    from
+} */
+.indexBody .img {
+    margin-left: 30%;
+}
+
+.indexBody .square p {
+    text-align: center;
+}
+
+ /* !importat says it takes priority */
+
+.indexBody a {
+    color: white;
+    font-size: 6rem;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+/* About page styling */
+
+.myAboutPage table th h1 a {
+    text-decoration: none;
+
+}
+ 
