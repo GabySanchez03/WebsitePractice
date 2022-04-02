@@ -174,4 +174,30 @@ footer p a {
     text-decoration: none;
 
 }
- 
+
+/* Hobbies.html style */
+
+.w3-col {
+    padding-top: 6rem;
+    justify-items: center;
+}
+
+.w3-col h1 {
+    color: white;
+    text-align: center;
+    padding-right: 18%;
+}
+
+.pcgames .w3-col img {
+    height: 15rem;
+}
+
+.ps4games .w3-col img {
+    height: 20rem;
+}
+
+.w3-row .w3-col a {
+    color: white;
+    font-size: 2rem;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
