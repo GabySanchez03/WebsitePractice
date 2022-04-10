@@ -260,3 +260,33 @@ if (number % 2 == 0) {
 else {
     console.log("Is Odd")
 }
+
+const number2 = 2
+
+if (number2 % 2 == 0) {
+    console.log("Is Even");
+}
+else {
+    console.log("Is Odd")
+}
+
+const number3 = 3
+
+if (number3 % 2 == 0) {
+    console.log("Is Even");
+}
+else {
+    console.log("Is Odd")
+}
+
+const number4 = 4
+
+if (number4 % 2 == 0) {
+    console.log("Is Even");
+}
+else {
+    console.log("Is Odd")
+}
+
+//LOOPS
+
